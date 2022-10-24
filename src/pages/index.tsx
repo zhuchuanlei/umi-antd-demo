@@ -7,7 +7,7 @@ const BasicLayout = (props: any) => {
     <ProLayout
       fixSiderbar
       defaultCollapsed
-      breakpoint={false}
+      // breakpoint={false}
       route={props.route}
       menuItemRender={(props: any) => {
         return <Link to={props.path}>{props.name}</Link>
